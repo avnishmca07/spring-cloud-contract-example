@@ -3,13 +3,13 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
-	<groupId>me.aboullaite.spring.cloud</groupId>
-	<artifactId>spring-cloud-contract-parent</artifactId>
+	<groupId>com.citi.oneclient</groupId>
+	<artifactId>oneclient-contract-service</artifactId>
 	<version>1.0.0-SNAPSHOT</version>
 	<packaging>pom</packaging>
 
-	<name>spring-cloud-contract</name>
-	<description>Demo project for Spring Cloud contract</description>
+	<name>oneclient-contract-service</name>
+	<description>Demo project for Services contract</description>
 
 	<parent>
 		<groupId>org.springframework.boot</groupId>
@@ -25,10 +25,10 @@
 	</properties>
 
 <modules>
-	<module>spring-cloud-contract-producer</module>
-	<module>spring-cloud-contract-consumer</module>
-	<module>spring-cloud-contract-evenodd-producer</module>
-	<module>spring-cloud-contract-evenodd-consumer</module>
+	<module>oneclient-contract-service-producer</module>
+	<module>oneclient-contract-service-consumer</module>
+	<module>oneclient-contract-service-producer1</module>
+	<module>oneclient-contract-service-consumer1</module>
 </modules>
 	<build>
 		<plugins>
